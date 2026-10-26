@@ -17,6 +17,23 @@ const PRODUCTS = [
     ],
   },
   {
+    id: "contrast",
+    image: "contrast.jpg",
+    name: "Contrast",
+    kind: "Bluză",
+    category: "bluze",
+    silhouette: "blouse",
+    price: 219,
+    fabric: "Vâscoză",
+    blurb: "Corp negru, mâneci largi albe.",
+    story:
+      "Bluza e lejeră, cu guler rotund. Corpul rămâne negru, iar mâneciile albe cad larg, până peste șold.",
+    care: "Spălare la 30°, pe dos. Nu stoarce. Se calcă rar.",
+    colors: [
+      { name: "Negru cu alb", hex: "#202020", stripe: "#f0f0f0" },
+    ],
+  },
+  {
     id: "alba",
     image: "alba.jpg",
     name: "Alba",
@@ -252,7 +269,7 @@ const SIZES = ["XS", "S", "M", "L", "XL"];
 const CATEGORIES = {
   bluze: {
     title: "Bluze",
-    lead: "Bluză cu decolteu în V și mânecă lungă, în bleumarin cu frunze albe.",
+    lead: "Una cu frunze albe pe bleumarin, alta neagră cu mâneci albe.",
   },
   camasi: {
     title: "Cămăși",
