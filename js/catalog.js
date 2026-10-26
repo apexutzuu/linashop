@@ -34,6 +34,23 @@ const PRODUCTS = [
     ],
   },
   {
+    id: "volan",
+    image: "volan.jpg",
+    name: "Volan",
+    kind: "Bluză",
+    category: "bluze",
+    silhouette: "blouse",
+    price: 249,
+    fabric: "Vâscoză",
+    blurb: "Volane pe umeri și mâneci, fundă la guler, în crem.",
+    story:
+      "Bluza e lejeră, cu guler moale prins într-o fundă. Volanele cad pe umeri și de-a lungul mânecilor.",
+    care: "Spălare la 30°, pe dos. Nu stoarce. Călcă pe dos, la temperatură mică.",
+    colors: [
+      { name: "Crem", hex: "#e6e4dc" },
+    ],
+  },
+  {
     id: "alba",
     image: "alba.jpg",
     name: "Alba",
@@ -269,7 +286,7 @@ const SIZES = ["XS", "S", "M", "L", "XL"];
 const CATEGORIES = {
   bluze: {
     title: "Bluze",
-    lead: "Una cu frunze albe pe bleumarin, alta neagră cu mâneci albe.",
+    lead: "Frunze pe bleumarin, negru cu mâneci albe, și una crem cu volane.",
   },
   camasi: {
     title: "Cămăși",
