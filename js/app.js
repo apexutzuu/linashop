@@ -87,7 +87,7 @@ function cartTotal() {
 
 function photoFor(product, alt) {
   const file = String(product.image || "alba.jpg").replace(/[^a-z0-9._-]/gi, "");
-  return `<img src="/images/${file}?v=3" alt="${esc(alt || `${product.kind} ${product.name}`)}">`;
+  return `<img src="/images/${file}?v=4" alt="${esc(alt || `${product.kind} ${product.name}`)}">`;
 }
 
 function renderBrand() {
