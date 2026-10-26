@@ -3,9 +3,9 @@ const PRODUCTS = [
     id: "alba",
     image: "alba.jpg",
     name: "Alba",
-    kind: "Bluză",
-    category: "bluze",
-    silhouette: "blouse",
+    kind: "Cămașă",
+    category: "camasi",
+    silhouette: "shirt",
     price: 219,
     fabric: "In spălat",
     blurb: "Guler moale, mânecă lejeră, nasturi pe toată lungimea.",
@@ -22,8 +22,8 @@ const PRODUCTS = [
     id: "mira",
     image: "mira.jpg",
     name: "Mira",
-    kind: "Bluză",
-    category: "bluze",
+    kind: "Cămașă",
+    category: "camasi",
     silhouette: "bow",
     price: 249,
     fabric: "Vâscoză fluidă",
@@ -41,8 +41,8 @@ const PRODUCTS = [
     id: "nora",
     image: "nora.jpg",
     name: "Nora",
-    kind: "Bluză",
-    category: "bluze",
+    kind: "Cămașă",
+    category: "camasi",
     silhouette: "boxy",
     price: 199,
     fabric: "Bumbac gros",
@@ -60,8 +60,8 @@ const PRODUCTS = [
     id: "elena",
     image: "elena.jpg",
     name: "Elena",
-    kind: "Bluză",
-    category: "bluze",
+    kind: "Cămașă",
+    category: "camasi",
     silhouette: "collar",
     price: 229,
     fabric: "Bumbac-poplin",
@@ -105,7 +105,7 @@ const PRODUCTS = [
     fabric: "Bumbac moale",
     blurb: "Bumbac moale, croială dreaptă, guler rotund.",
     story:
-      "Tricoul de zi cu zi, nici mulat, nici sac. Stă bine singur, cu blugi, sau pe sub o bluză descheiată.",
+      "Tricoul de zi cu zi, nici mulat, nici sac. Stă bine singur, cu blugi, sau pe sub o cămașă descheiată.",
     care: "Spălare la 30°. Se usucă întins, ca să nu se lungească de pe umeraș.",
     colors: [
       { name: "Gri piatră", hex: "#b7b0a6" },
@@ -196,7 +196,7 @@ const PRODUCTS = [
     id: "luna",
     image: "luna.jpg",
     name: "Lună",
-    kind: "Pijama",
+    kind: "Cămașă de noapte",
     category: "pijamale",
     silhouette: "gown",
     price: 199,
@@ -235,13 +235,13 @@ const PRODUCTS = [
 const SIZES = ["XS", "S", "M", "L", "XL"];
 
 const CATEGORIES = {
-  bluze: {
-    title: "Bluze",
+  camasi: {
+    title: "Cămăși",
     lead: "Cămăși moi, de purtat încheiate sau pe deasupra unui tricou.",
   },
   tricouri: {
     title: "Tricouri",
-    lead: "Bumbac cu croială dreaptă sau largă. Singure, sau sub bluze.",
+    lead: "Bumbac cu croială dreaptă sau largă. Singure, sau sub o cămașă.",
   },
   pijamale: {
     title: "Pijamale",

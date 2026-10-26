@@ -9,7 +9,7 @@ const state = {
 
 const $ = (sel) => document.querySelector(sel);
 const grids = {
-  bluze: $("#grid-bluze"),
+  camasi: $("#grid-camasi"),
   tricouri: $("#grid-tricouri"),
   pijamale: $("#grid-pijamale"),
 };
@@ -131,7 +131,7 @@ function renderBrand() {
 
 function renderProducts() {
   Object.entries(grids).forEach(([category, grid]) => {
-    const featured = { bluze: "alba", tricouri: "rand", pijamale: "luna" }[category];
+    const featured = { camasi: "alba", tricouri: "rand", pijamale: "luna" }[category];
     const items = PRODUCTS.filter((item) => item.category === category).sort(
       (a, b) => Number(b.id === featured) - Number(a.id === featured)
     );
