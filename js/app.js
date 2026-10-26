@@ -9,6 +9,7 @@ const state = {
 
 const $ = (sel) => document.querySelector(sel);
 const grids = {
+  bluze: $("#grid-bluze"),
   camasi: $("#grid-camasi"),
   tricouri: $("#grid-tricouri"),
   pijamale: $("#grid-pijamale"),
@@ -131,7 +132,7 @@ function renderBrand() {
 
 function renderProducts() {
   Object.entries(grids).forEach(([category, grid]) => {
-    const featured = { camasi: "alba", tricouri: "rand", pijamale: "luna" }[category];
+    const featured = { bluze: "frunza", camasi: "alba", tricouri: "rand", pijamale: "luna" }[category];
     const items = PRODUCTS.filter((item) => item.category === category).sort(
       (a, b) => Number(b.id === featured) - Number(a.id === featured)
     );
@@ -234,7 +235,7 @@ function renderModal() {
             .map(
               (entry, index) => `
                 <button class="swatch" type="button" data-color="${index}" aria-pressed="${index === state.color}">
-                  <i style="background:${esc(entry.hex)}"></i>${esc(entry.label)}
+                  <i style="background:${esc(entry.stripe ? `linear-gradient(135deg, ${entry.hex} 52%, ${entry.stripe} 52%)` : entry.hex)}"></i>${esc(entry.label)}
                 </button>`
             )
             .join("")}

@@ -1,5 +1,22 @@
 const PRODUCTS = [
   {
+    id: "frunza",
+    image: "frunza.jpg",
+    name: "Frunză",
+    kind: "Bluză",
+    category: "bluze",
+    silhouette: "blouse",
+    price: 239,
+    fabric: "Vâscoză",
+    blurb: "Decolteu în V, mânecă lungă, frunze albe pe bleumarin.",
+    story:
+      "Bluza cade lejer, cu umărul ușor încrețit. Fondul e bleumarin închis, iar frunzele albe acoperă toată piesa.",
+    care: "Spălare delicată la 30°, pe dos. Nu stoarce. Călcă pe dos, la temperatură mică.",
+    colors: [
+      { name: "Bleumarin cu alb", hex: "#1c1e28", stripe: "#f4f4f4" },
+    ],
+  },
+  {
     id: "alba",
     image: "alba.jpg",
     name: "Alba",
@@ -235,6 +252,10 @@ const PRODUCTS = [
 const SIZES = ["XS", "S", "M", "L", "XL"];
 
 const CATEGORIES = {
+  bluze: {
+    title: "Bluze",
+    lead: "Bluză cu decolteu în V și mânecă lungă, în bleumarin cu frunze albe.",
+  },
   camasi: {
     title: "Cămăși",
     lead: "Cămăși moi, de purtat încheiate sau pe deasupra unui tricou.",
