@@ -82,14 +82,12 @@ const PRODUCTS = [
     silhouette: "collar",
     price: 229,
     fabric: "Bumbac-poplin",
-    blurb: "Guler clasic, puțin mai structurat.",
+    blurb: "Guler clasic, dungi fine albastre și albe.",
     story:
-      "Arată îngrijit fără să fie rigidă. Poplinul ține forma gulerului și rămâne neted peste zi.",
+      "Cămașa se vede întreagă, de la guler până la tiv. Dungile sunt subțiri, albastre și albe, iar poplinul ține forma gulerului.",
     care: "Spălare la 40°. Călcă gulerul pe dos, la temperatură medie.",
     colors: [
-      { name: "Alb optic", hex: "#f7f5f1" },
-      { name: "Albastru pal", hex: "#d5dee8" },
-      { name: "Negru", hex: "#24211e" },
+      { name: "Albastru cu alb", hex: "#7babd1", stripe: "#f4f7fb" },
     ],
   },
   {
