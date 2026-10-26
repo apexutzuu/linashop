@@ -1,0 +1,9 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# Paginile de țară rămân la adresa lor și primesc index.html.
+RewriteRule ^(en|bg|hu|ro|de|at|pl|cz|sk|el)/?$ index.html [L]
+
+# Depozitul git nu trebuie să fie vizibil dacă e în folderul site-ului.
+RewriteRule (^|/)\.git - [F,L]
