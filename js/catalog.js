@@ -51,6 +51,23 @@ const PRODUCTS = [
     ],
   },
   {
+    id: "pliu",
+    image: "pliu.jpg",
+    name: "Pliu",
+    kind: "Bluză",
+    category: "bluze",
+    silhouette: "blouse",
+    price: 239,
+    fabric: "Mătase",
+    blurb: "Pliuri pe față, șnur la manșete, în ivoriu.",
+    story:
+      "Bluza e ușoară, cu guler moale și o deschidere scurtă la gât. Pliurile fine coboară pe corp, iar manșetele se leagă.",
+    care: "Spălare delicată la 30°, pe dos. Nu stoarce. Călcă pliurile la temperatură mică.",
+    colors: [
+      { name: "Ivoriu", hex: "#eadac1" },
+    ],
+  },
+  {
     id: "alba",
     image: "alba.jpg",
     name: "Alba",
@@ -286,7 +303,7 @@ const SIZES = ["XS", "S", "M", "L", "XL"];
 const CATEGORIES = {
   bluze: {
     title: "Bluze",
-    lead: "Frunze pe bleumarin, negru cu mâneci albe, și una crem cu volane.",
+    lead: "Frunze pe bleumarin, negru cu mâneci albe, volane crem și pliuri ivorii.",
   },
   camasi: {
     title: "Cămăși",
